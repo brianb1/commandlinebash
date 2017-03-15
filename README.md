@@ -2,7 +2,7 @@
 practicing Terminal to get better in command line
 
 ---
-authors: "brianb1"
+authors: "@brianb1" "@lilvina"
 ---
 
 # Dive Into UNIX and Bash
