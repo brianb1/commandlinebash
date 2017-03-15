@@ -1,0 +1,9 @@
+Clear the contents of the current tab.
+
+A: type clear or press ctrl-l
+
+
+
+Open a new tab, execute echo ’hello’, and then exit.
+
+A: press ctrl + alt + t, type echo 'hello', type exit or ctrl-d
