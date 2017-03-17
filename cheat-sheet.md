@@ -21,3 +21,9 @@ ctrl + U
 
 #Move to beginning of line without deleting entries
 ctrl + A
+
+#find out what unix shell (command-line interpreter) I'm using (i.e. bash or zsh)
+echo $shell
+
+##Find file path (print working directory)
+pwd
