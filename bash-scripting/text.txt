@@ -1,0 +1,7 @@
+PING espn.com (199.181.132.250): 56 data bytes
+64 bytes from 199.181.132.250: icmp_seq=0 ttl=238 time=23.356 ms
+64 bytes from 199.181.132.250: icmp_seq=1 ttl=238 time=21.748 ms
+
+--- espn.com ping statistics ---
+2 packets transmitted, 2 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 21.748/22.552/23.356/0.804 ms
