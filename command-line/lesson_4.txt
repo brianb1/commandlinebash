@@ -1,0 +1,19 @@
+Chapter 4 Directories
+
+4.1 Directory Structure
+
+1. Tilde slash foo slash bar.
+2. Home directory is /Users/bill and username is bill. /Users/bill/sonnets is the deepest directory.
+3. /Users/bill/sonnets and ~/sonnets are not different. They are the same directory.
+
+4.2 Making Directories
+
+1. When you run man mkdir, it will reveal -p Create intermediate directories as required.
+2. mkdir -p foo/bar
+3. When you type ls | grep o, it will list everything that contains the letter "o".
+
+4.3 Navigating Directories
+1. cd and cd ~ are exactly the same.
+2. cd text_files and to change to second_directory, cd ../second_directory
+3. touch ~/text_files/nil
+4. rm -f /Users/mhartl/text_files/nil
