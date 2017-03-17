@@ -1,0 +1,21 @@
+Chapter 3 Inspecting Files
+
+3.1 Downloading a file
+
+1. When you run the curl -I command, the first line contains the HTTP header. You get a different result when you run curl for the learnenough.com url.
+2. When you type ls sonnets.txt, you will see that the file exists. When you type ls -l, it will show how many bytes the file has, which is 95,635.
+3. Combine the -h option with -l to get a byte count: ls -hl sonnets.txt
+4. To list the files and directories, combine h, a, r, t and l and it will form: ls -hartl.
+
+3.2 Making Heads and Tails Of It
+
+1. When you type tail sonnets.txt | wc, the results will be 10, 77 and 425. 10 represent the lines in tail sonnets.txt, there are 77 words and 425 bytes.
+2. Running man head shows that the -n option controls the count.
+
+3.4 Grepping
+
+1. grep -n rose sonnets.txt. When you run this, it shows how many times you see "rose".
+2. Type 2203G inside to go to line 2203.
+3. By typing grep rose sonnets.txt | head -n 1, it will show the text "The rose looks fair, but fairer we it deem."
+4. grep Rose sonnets.txt That thereby beauty's Rose might never die, Roses have thorns, and silver fountains mud: Roses of shadow, since his rose is true?
+5. grep Rose sonnets.txt | grep -v rose | wc
