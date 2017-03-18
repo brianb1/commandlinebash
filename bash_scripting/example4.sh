@@ -6,3 +6,6 @@ then
     echo "Testing123"
 
 fi
+
+
+#if statements
